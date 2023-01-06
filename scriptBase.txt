@@ -1,0 +1,7 @@
+CREATE TABLE books(
+	id serial PRIMARY KEY,
+	isbn varchar(16),
+	title varchar(128),
+	author varchar(64),
+	price numeric(10,2)
+);
